@@ -1,0 +1,7 @@
+Mirror in progress since Fri, 02 May 2025 21:59:04 .. please wait!
+httrack https://jyywiki.cn/ 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=138230
+UID=1000
+GID=1000
+START=1746194344

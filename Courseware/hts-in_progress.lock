@@ -1,0 +1,7 @@
+Mirror in progress since Fri, 02 May 2025 19:18:35 .. please wait!
+httrack https://jyywiki.cn/ -O ./Courseware/ https://jyywiki.cn/ -O Courseware/ -iC2 https://jyywiki.cn/ -O Courseware/ -iC2 https://jyywiki.cn/ -O Courseware/ -iC2 https://jyywiki.cn/ -O Courseware/ -iC2 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=112362
+UID=1000
+GID=1000
+START=1746184715

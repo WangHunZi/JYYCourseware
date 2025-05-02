@@ -1,6 +1,4 @@
 .idea
 venv
-hts-cache
-hts-log.txt
-urls.txt
 *.sh
+__pycache__

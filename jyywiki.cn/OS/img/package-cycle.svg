@@ -1,0 +1,222 @@
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg width="878pt" height="516pt" viewBox="0 0 877.5 516" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1) translate(4 512)">
+<polygon points="-4 4 -4 -512 873.5 -512 873.5 4" fill="#fff" stroke="transparent"/>
+<text x="434.75" y="-492.8" font-family="Liberation Sans" font-size="14" text-anchor="middle">Debian suites workflows, 2016</text>
+<g class="cluster">
+<polygon points="111.5 -402 111.5 -477 377.5 -477 377.5 -402" fill="none" stroke="#000"/>
+<text x="244.5" y="-461.8" font-family="Liberation Sans" font-size="14" text-anchor="middle">uploaders</text>
+<polygon points="540.5 -73.5 540.5 -477 861.5 -477 861.5 -73.5" fill="none" stroke="#000"/>
+<text x="701" y="-461.8" font-family="Liberation Sans" font-size="14" text-anchor="middle">legend</text>
+</g>
+<g class="node">
+<a xlink:href="https://wiki.debian.org/DebianUnstable" xlink:title="unstable">
+<polygon points="351.5 -359 283.5 -359 283.5 -323 351.5 -323" fill="red" stroke="#000"/>
+<text x="317.5" y="-337.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">unstable</text>
+</a>
+<a xlink:href="https://wiki.debian.org/DebianTesting" xlink:title="testing">
+<polygon points="438.5 -272 382.5 -272 382.5 -236 438.5 -236" fill="#ff0" stroke="#000"/>
+<text x="410.5" y="-250.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">testing</text>
+</a>
+</g>
+<g class="edge">
+<a stroke="#000" xlink:href="https://www.debian.org/doc/manuals/developers-reference/pkgs.html#testing-unstable">
+<path d="m336.32-322.8c13.74 12.56 32.55 29.75 47.79 43.68" fill="none"/>
+<polygon points="386.69 -281.51 391.71 -272.18 381.97 -276.34"/>
+</a>
+</g>
+<g class="node">
+<a xlink:href="https://wiki.debian.org/DebianExperimental" xlink:title="experimental">
+<polygon points="465 -359 370 -359 370 -323 465 -323" fill="red" stroke="#000"/>
+<text x="417.5" y="-337.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">experimental</text>
+</a>
+<a xlink:href="https://wiki.debian.org/DebianStable" xlink:title="stable">
+<polygon points="437.5 -199 383.5 -199 383.5 -163 437.5 -163" fill="green" stroke="#000"/>
+<text x="410.5" y="-177.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">stable</text>
+</a>
+</g>
+<g class="edge" fill="none" stroke="#000">
+<path d="m410.5-235.81v26.74"/>
+<polygon points="414 -209.03 410.5 -199.03 407 -209.03"/>
+</g>
+<g class="node">
+<a xlink:href="http://backports.debian.org/" xlink:title="backports">
+<polygon points="531 -199 456 -199 456 -163 531 -163" fill="green" stroke="#000"/>
+<text x="493.5" y="-177.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">backports</text>
+</a>
+<a xlink:href="https://wiki.debian.org/TestingProposedUpdates" xlink:title="testing-proposed-updates">
+<polygon points="346.5 -272 176.5 -272 176.5 -236 346.5 -236" fill="red" stroke="#000"/>
+<text x="261.5" y="-250.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">testing-proposed-updates</text>
+</a>
+</g>
+<g class="edge">
+<a stroke="#000" xlink:href="https://wiki.debian.org/Teams/ReleaseTeam">
+<path d="m346.77-254h27.34" fill="none"/>
+<ellipse cx="378.12" cy="-254" rx="4" ry="4"/>
+</a>
+</g>
+<g class="node">
+<a xlink:href="https://wiki.debian.org/StableProposedUpdates" xlink:title="proposed-updates">
+<polygon points="224 -199 99 -199 99 -163 224 -163" fill="#ff0" stroke="#000"/>
+<text x="161.5" y="-177.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">proposed-updates</text>
+</a>
+</g>
+<g class="edge">
+<a stroke="#000" xlink:href="https://wiki.debian.org/Teams/ReleaseTeam">
+<path d="m224.1-198.94c38.07-10.42 87.62-24.2 131.4-37.06 6.14-1.8 12.64-3.76 18.95-5.7" fill="none" stroke-dasharray="5,2"/>
+<ellipse cx="378.46" cy="-242.93" rx="4" ry="4"/>
+</a>
+<a stroke="#000" xlink:href="https://wiki.debian.org/Teams/ReleaseTeam">
+<path d="m199.3-199.08c41.68-17.36 110.25-38.26 166.2-18.42 7.96 2.82 15.55 7.72 22.14 13.03" fill="none"/>
+<ellipse cx="390.85" cy="-201.69" rx="4" ry="4"/>
+</a>
+</g>
+<g class="node">
+<a xlink:href="https://wiki.debian.org/StableUpdates" xlink:title="stable-updates">
+<polygon points="365 -199 260 -199 260 -163 365 -163" fill="green" stroke="#000"/>
+<text x="312.5" y="-177.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">stable-updates</text>
+</a>
+</g>
+<g class="edge" fill="none" stroke="#000">
+<path d="m224.02-181h25.84"/>
+<polygon points="249.97 -184.5 259.97 -181 249.97 -177.5"/>
+</g>
+<g class="node">
+<a xlink:href="https://wiki.debian.org/DebianOldStable" xlink:title="oldstable">
+<polygon points="446 -117.5 375 -117.5 375 -81.5 446 -81.5" fill="grey" stroke="#000"/>
+<text x="410.5" y="-95.8" font-family="Liberation Sans" font-size="14" text-anchor="middle">oldstable</text>
+</a>
+</g>
+<g class="edge" fill="none" stroke="#000">
+<path d="m410.5-162.75v34.96"/>
+<polygon points="414 -127.72 410.5 -117.72 407 -127.72"/>
+</g>
+<g class="node">
+<a xlink:href="https://www.debian.org/security/" xlink:title="security">
+<polygon points="63 -199 0 -199 0 -163 63 -163" fill="green" stroke="#000"/>
+<text x="31.5" y="-177.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">security</text>
+</a>
+</g>
+<g class="edge" fill="none" stroke="#000">
+<path d="m63.24-181h25.66"/>
+<polygon points="88.93 -184.5 98.93 -181 88.93 -177.5"/>
+</g>
+<g class="node">
+<a xlink:href="http://archive.debian.org" xlink:title="archive">
+<polygon points="440.5 -36 380.5 -36 380.5 0 440.5 0" fill="none" stroke="#000"/>
+<text x="410.5" y="-14.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">archive</text>
+</a>
+</g>
+<g class="edge" fill="none" stroke="#000">
+<path d="m410.5-81.25v34.96"/>
+<polygon points="414 -46.22 410.5 -36.22 407 -46.22"/>
+</g>
+<g class="node">
+<g fill="none" stroke="#000">
+<polygon points="333 -126 130 -126 130 -73 339 -73 339 -120"/>
+<polyline points="333 -126 333 -120"/>
+<polyline points="339 -120 333 -120"/>
+</g>
+<g font-family="Liberation Sans" font-size="14" text-anchor="middle">
+<text x="234.5" y="-110.8">Note: oldstable has the same</text>
+<text x="234.5" y="-95.8">set of suites as stable</text>
+<text x="234.5" y="-80.8">not detailed here to avoid clutter</text>
+</g>
+<a xlink:href="https://wiki.debian.org/Maintainers" xlink:title="maintainer">
+<ellipse cx="317.5" cy="-428" rx="51.99" ry="18" fill="none" stroke="#000"/>
+<text x="317.5" y="-424.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">maintainer</text>
+</a>
+</g>
+<g class="edge">
+<g fill="none" stroke="#000">
+<path d="m317.5-409.8v40.56"/>
+<polygon points="321 -369.18 317.5 -359.18 314 -369.18"/>
+<path d="m336.31-411.01c14.97 12.73 36.17 30.74 53.14 45.17"/>
+<polygon points="392.05 -368.23 397.4 -359.08 387.52 -362.89"/>
+<path d="m304.11-410.49c-9.89 13.14-22.78 32.42-29.61 51.49-8.98 25.06-11.94 55.44-12.83 76.87" stroke-dasharray="5,2"/>
+<polygon points="265.17 -281.99 261.38 -272.09 258.17 -282.19"/>
+<path d="m294.47-411.73c-34.87 24.63-99.87 76.79-126.97 139.73-8.54 19.84-9.62 44.43-8.8 62.89"/>
+<polygon points="162.2 -209.24 159.36 -199.04 155.22 -208.78"/>
+<path d="m363.84-419.81c36.2 8.21 84.6 25.4 110.66 60.81 32.51 44.18 29.08 112.17 23.91 149.73"/>
+<polygon points="501.83 -208.45 496.86 -199.09 494.91 -209.5"/>
+</g>
+<text x="476.86" y="-217.89" font-family="Liberation Sans" font-size="14" text-anchor="middle">from</text>
+<text x="476.86" y="-202.89" font-family="Liberation Sans" font-size="14" text-anchor="middle">testing</text>
+</g>
+<g class="node">
+<a xlink:href="https://wiki.debian.org/Teams/Security" xlink:title="security team">
+<ellipse cx="183.5" cy="-428" rx="63.89" ry="18" fill="none" stroke="#000"/>
+<text x="183.5" y="-424.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">security team</text>
+</a>
+</g>
+<g class="edge" fill="none" stroke="#000">
+<path d="m208.39-411.21c20.67 13.11 50.34 31.93 73.52 46.63"/>
+<polygon points="283.87 -367.48 290.44 -359.16 280.12 -361.57"/>
+<path d="m156.85-411.52c-7.88 5.46-16.06 12.1-22.35 19.52-48.4 57.08-80.5 140.82-94.68 183.24"/>
+<polygon points="43.11 -207.56 36.68 -199.14 36.46 -209.74"/>
+</g>
+<g class="node">
+<ellipse cx="712.5" cy="-428" rx="37.89" ry="18" fill="none" stroke="#000"/>
+<text x="712.5" y="-424.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">person</text>
+<polygon points="750.5 -359 674.5 -359 674.5 -323 750.5 -323" fill="none" stroke="#000"/>
+<text x="712.5" y="-337.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">repository</text>
+</g>
+<g class="edge">
+<path d="m712.5-409.8v40.56" fill="none" stroke="#000"/>
+<polygon points="716 -369.18 712.5 -359.18 709 -369.18" fill="none" stroke="#000"/>
+<text x="740.5" y="-380.8" font-family="Liberation Sans" font-size="14" text-anchor="middle">upload to</text>
+</g>
+<g class="node">
+<polygon points="747.5 -272 671.5 -272 671.5 -236 747.5 -236" fill="none" stroke="#000"/>
+<text x="709.5" y="-250.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">repository</text>
+</g>
+<g class="edge">
+<path d="m674.25-332.79c-38.64 7.68-93.53 19.79-99.75 27.79-4.09 5.26-4.1 9.75 0 15 20.3 26 40.08 9.7 72 18 4.88 1.27 9.96 2.61 15.03 3.96" fill="none" stroke="#000"/>
+<polygon points="662.46 -271.42 671.22 -265.45 660.65 -264.66" stroke="#000"/>
+<text x="604.5" y="-293.8" font-family="Liberation Sans" font-size="14" text-anchor="middle">automatic</text>
+<path d="m674.46-323.02c-6.8 4.82-12.98 10.78-16.96 18.02-5.46 9.95-.54 19.12 8.1 26.82" fill="none" stroke="#000"/>
+<polygon points="667.76 -280.93 673.58 -272.08 663.51 -275.37" fill="none" stroke="#000"/>
+<text x="680.5" y="-293.8" font-family="Liberation Sans" font-size="14" text-anchor="middle">manual</text>
+<path d="m711.89-322.8c-.43 12.21-1.01 28.81-1.5 42.52" fill="none" stroke="#000"/>
+<ellipse cx="710.25" cy="-276.17" rx="4" ry="4" stroke="#000"/>
+<text x="739" y="-293.8" font-family="Liberation Sans" font-size="14" text-anchor="middle">approved</text>
+<path d="m750.86-324.87c15.89 8.71 28.9 20.72 20.64 34.87-3.73 6.38-9.1 11.7-15.14 16.09" fill="none" stroke="#000" stroke-dasharray="5,2"/>
+<polygon points="758.12 -270.88 747.8 -268.48 754.37 -276.79" stroke="#000"/>
+<text x="797.5" y="-293.8" font-family="Liberation Sans" font-size="14" text-anchor="middle">unusual</text>
+</g>
+<g class="node">
+<polygon points="637.5 -272 557.5 -272 557.5 -236 637.5 -236" fill="green" stroke="#000"/>
+<text x="597.5" y="-250.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">production</text>
+<polygon points="664.5 -199 548.5 -199 548.5 -163 664.5 -163" fill="grey" stroke="#000"/>
+<text x="606.5" y="-177.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">deprecated, LTS</text>
+</g>
+<g class="edge" stroke="#000">
+<path d="m599.68-235.81c1.02 8.02 2.25 17.76 3.39 26.74" fill="none"/>
+<polygon points="606.56 -209.39 604.34 -199.03 599.61 -208.51"/>
+</g>
+<g class="node">
+<polygon points="609.5 -359 553.5 -359 553.5 -323 609.5 -323" fill="#ff0" stroke="#000"/>
+<text x="581.5" y="-337.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">testing</text>
+</g>
+<g class="edge" stroke="#000">
+<path d="m570.69-322.67c-4.67 9.71-8.24 21.99-4.19 32.67 1.28 3.37 3.04 6.62 5.09 9.69" fill="none"/>
+<polygon points="574.54 -282.21 577.92 -272.17 569.02 -277.91"/>
+</g>
+<g class="node">
+<polygon points="644 -446 549 -446 549 -410 644 -410" fill="red" stroke="#000"/>
+<text x="596.5" y="-424.3" font-family="Liberation Sans" font-size="14" text-anchor="middle">development</text>
+</g>
+<g class="edge" stroke="#000">
+<path d="m593.46-409.8c-2.05 11.64-4.8 27.25-7.15 40.56" fill="none"/>
+<polygon points="589.72 -368.41 584.53 -359.18 582.82 -369.63"/>
+</g>
+<g class="node">
+<polygon points="652.5 -117.5 560.5 -117.5 560.5 -81.5 652.5 -81.5" fill="none" stroke="#000"/>
+<text x="606.5" y="-95.8" font-family="Liberation Sans" font-size="14" text-anchor="middle">unsupported</text>
+</g>
+<g class="edge" stroke="#000">
+<path d="m606.5-162.75v34.96" fill="none"/>
+<polygon points="610 -127.72 606.5 -117.72 603 -127.72"/>
+</g>
+</g>
+</svg>

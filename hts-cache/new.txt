@@ -1,0 +1,7 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+21:59:05	988/988	---MCZ	-1	error ('Open%20error%20when%20decompressing%20(can%20not%20create%20temporary%20file%20/tmp0.z)')	text/html	etag:%22y13uhz964d1o9%22	https://jyywiki.cn/robots.txt		(from )
+21:59:06	11307/11307	U--MCZ	200	updated ('OK')	text/html	etag:%226bhnq74rf37q9%22	https://jyywiki.cn/	jyywiki.cn/index.html	(from )
+21:59:32	28659/28659	U-----	200	untouched ('OK')	text/css	etag:%22680f867a-6ff3%22	https://jyywiki.cn/_next/static/css/fd3859b8f03ce884.css	jyywiki.cn/_next/static/css/fd3859b8f03ce884.css	(from https://jyywiki.cn/)
+21:59:32	1588/1588	U-----	200	untouched ('')	application/javascript	etag:W/%22680f867a-634%22	https://jyywiki.cn/_next/static/chunks/webpack-91af2217067b1eba.js	jyywiki.cn/_next/static/chunks/webpack-91af2217067b1eba.js	(from https://jyywiki.cn/)
+21:59:32	91460/91460	U-----	200	untouched ('')	application/javascript	etag:W/%22680f867a-16544%22	https://jyywiki.cn/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js	jyywiki.cn/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js	(from https://jyywiki.cn/)
+21:59:32	210634/210634	U-----	200	untouched ('')	application/javascript	etag:W/%22680f867a-336ca%22	https://jyywiki.cn/_next/static/chunks/framework-fdf20b67f7acabe0.js	jyywiki.cn/_next/static/chunks/framework-fdf20b67f7acabe0.js	(from https://jyywiki.cn/)

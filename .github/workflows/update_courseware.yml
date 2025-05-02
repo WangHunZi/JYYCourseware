@@ -1,0 +1,46 @@
+name: Update Courseware
+
+on:
+  schedule:
+    - cron: '0 14 * * 6'  # 每周六 22:00 北京时间 (UTC 14:00)
+  workflow_dispatch:
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install required tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y httrack
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install beautifulsoup4 openai
+      
+      - name: Clone and fetch Courseware Source
+        run: |
+          set -e
+          httrack https://jyywiki.cn/ || exit 1
+
+      - name: Run update script
+        env:
+          SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          SECRET_PROMOPT: ${{ secrets.SECRET_PROMOPT }}
+        run: python main.py
+      
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated courseware update"
+          branch: main
