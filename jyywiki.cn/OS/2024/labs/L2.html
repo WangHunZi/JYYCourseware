@@ -407,7 +407,7 @@ uaf_check(ptr)
     }
 
     <span class="hljs-comment">// Restore current thread's context.</span>
-    <span class="hljs-keyword">return</span> &current->context;
+    <span class="hljs-keyword">return</span> ¤t->context;
 }
 </code></pre>
 <p>没错，只要通过对 “进程状态” 的一个小小的 hacking，我们就可以进一步实现可以睡眠的互斥锁：</p>

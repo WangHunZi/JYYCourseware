@@ -81,14 +81,17 @@ def conclusion():
     SECRET_KEY, SECRET_PROMOPT = os.getenv("SECRET_KEY"), os.getenv("SECRET_PROMOPT")
     client = OpenAI(api_key=f"{SECRET_KEY}", base_url="https://api.deepseek.com")
 
+    if len(content) == 0:
+        return
+
     try:
         response = client.chat.completions.create(
             model="deepseek-reasoner",
             messages=[
-                {"role": "system", "content": "You are a helpful assistant"},
-                {"role": "user", "content": f"{SECRET_PROMOPT}"},
+                {"role": "system", "content": f"{SECRET_PROMOPT}"},
+                {"role": "user", "content": f"{content}"},
             ],
-            max_tokens=8192,
+            #max_tokens=8192,
             temperature=0.5,
             stream=False
         )
@@ -104,9 +107,11 @@ def conclusion():
             else:
                 endi = i
                 break
-    Path("README.md").write_text('\n'.join(lines[:(starti + 1)]) +
-                                 '\n' + response.choices[0].message.content.strip() + '\n' +
-                                 '\n'.join(lines[endi:]) + '\n')
+
+    if lines[endi - 1] == "":
+        Path("README.md").write_text('\n'.join(lines[:(endi - 2)]) +
+                                    '\n\n' + response.choices[0].message.content.strip() + '\n\n' +
+                                    '\n'.join(lines[endi:]) + '\n')
 
 if __name__ == "__main__":
     convert()
