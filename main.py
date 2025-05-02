@@ -4,6 +4,7 @@ import html
 import shutil
 import filecmp
 import subprocess
+from datetime import date
 from bs4 import BeautifulSoup
 from pathlib import Path
 from openai import OpenAI
@@ -67,7 +68,7 @@ def conclusion():
         if "Untracked files" in line:
             start = True
             continue
-        if start and line.startswith("Courseware/OS/2025/"):
+        if start and line.startswith(f"Courseware/OS/{date.today().year}/"):
             assemble.append(Path(line))
 
     for path in assemble:
