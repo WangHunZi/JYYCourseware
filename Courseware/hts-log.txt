@@ -1,9 +1,0 @@
-HTTrack3.49-2+libhtsjava.so.2 launched on Fri, 02 May 2025 19:18:35 at https://jyywiki.cn/ https://jyywiki.cn/ https://jyywiki.cn/ https://jyywiki.cn/ https://jyywiki.cn/
-(httrack https://jyywiki.cn/ -O ./Courseware/ https://jyywiki.cn/ -O Courseware/ -iC2 https://jyywiki.cn/ -O Courseware/ -iC2 https://jyywiki.cn/ -O Courseware/ -iC2 https://jyywiki.cn/ -O Courseware/ -iC2 )
-
-Information, Warnings and Errors reported for this mirror:
-note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
-	such as username/password authentication for websites mirrored in this project
-	do not share these files/folders if you want these information to remain private
-
-19:30:10	Error: 	Exit requested by shell or user
