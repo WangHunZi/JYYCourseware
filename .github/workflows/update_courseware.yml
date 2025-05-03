@@ -5,6 +5,9 @@ on:
     - cron: '0 14 * * 6'  # 每周六 22:00 北京时间 (UTC 14:00)
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build-and-update:
     runs-on: ubuntu-latest
